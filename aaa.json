@@ -1,0 +1,208 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "10023",
+  "self": "http://localhost:8080/rest/api/2/issue/10023",
+  "key": "TEST-19",
+  "fields": {
+    "issuetype": {
+      "self": "http://localhost:8080/rest/api/2/issuetype/10004",
+      "id": "10004",
+      "description": "事务的子任务。",
+      "iconUrl": "http://localhost:8080/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+      "name": "子任务",
+      "subtask": true,
+      "avatarId": 10316
+    },
+    "parent": {
+      "id": "10022",
+      "key": "TEST-18",
+      "self": "http://localhost:8080/rest/api/2/issue/10022",
+      "fields": {
+        "summary": "啊啊啊啊啊",
+        "status": {
+          "self": "http://localhost:8080/rest/api/2/status/10001",
+          "description": "",
+          "iconUrl": "http://localhost:8080/images/icons/status_generic.gif",
+          "name": "完成",
+          "id": "10001",
+          "statusCategory": {
+            "self": "http://localhost:8080/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "完成"
+          }
+        },
+        "priority": {
+          "self": "http://localhost:8080/rest/api/2/priority/3",
+          "iconUrl": "http://localhost:8080/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "issuetype": {
+          "self": "http://localhost:8080/rest/api/2/issuetype/10003",
+          "id": "10003",
+          "description": "需要完成的任务。",
+          "iconUrl": "http://localhost:8080/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+          "name": "任务",
+          "subtask": false,
+          "avatarId": 10318
+        }
+      }
+    },
+    "timespent": null,
+    "project": {
+      "self": "http://localhost:8080/rest/api/2/project/10000",
+      "id": "10000",
+      "key": "TEST",
+      "name": "test1",
+      "projectTypeKey": "business",
+      "avatarUrls": {
+        "48x48": "http://localhost:8080/secure/projectavatar?avatarId=10324",
+        "24x24": "http://localhost:8080/secure/projectavatar?size=small&avatarId=10324",
+        "16x16": "http://localhost:8080/secure/projectavatar?size=xsmall&avatarId=10324",
+        "32x32": "http://localhost:8080/secure/projectavatar?size=medium&avatarId=10324"
+      }
+    },
+    "fixVersions": [],
+    "customfield_10110": "0|i00053:",
+    "aggregatetimespent": null,
+    "resolution": {
+      "self": "http://localhost:8080/rest/api/2/resolution/10000",
+      "id": "10000",
+      "description": "该问题的工作流程已完成。",
+      "name": "完成"
+    },
+    "customfield_10114": {
+      "self": "http://localhost:8080/rest/api/2/customFieldOption/10000",
+      "value": "前端",
+      "id": "10000",
+      "disabled": false
+    },
+    "customfield_10104": null,
+    "customfield_10108": null,
+    "customfield_10109": null,
+    "resolutiondate": "2025-08-04T14:32:35.704+0800",
+    "workratio": -1,
+    "lastViewed": "2025-08-04T14:32:35.797+0800",
+    "watches": {
+      "self": "http://localhost:8080/rest/api/2/issue/TEST-19/watchers",
+      "watchCount": 1,
+      "isWatching": false
+    },
+    "created": "2025-08-04T11:46:31.274+0800",
+    "priority": {
+      "self": "http://localhost:8080/rest/api/2/priority/3",
+      "iconUrl": "http://localhost:8080/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "customfield_10100": null,
+    "customfield_10101": null,
+    "customfield_10102": null,
+    "labels": [],
+    "customfield_10103": null,
+    "timeestimate": null,
+    "aggregatetimeoriginalestimate": null,
+    "versions": [],
+    "issuelinks": [],
+    "assignee": {
+      "self": "http://localhost:8080/rest/api/2/user?username=moubing",
+      "name": "moubing",
+      "key": "JIRAUSER10002",
+      "emailAddress": "mbdevgreenhand@outlook.com",
+      "avatarUrls": {
+        "48x48": "http://localhost:8080/secure/useravatar?avatarId=10335",
+        "24x24": "http://localhost:8080/secure/useravatar?size=small&avatarId=10335",
+        "16x16": "http://localhost:8080/secure/useravatar?size=xsmall&avatarId=10335",
+        "32x32": "http://localhost:8080/secure/useravatar?size=medium&avatarId=10335"
+      },
+      "displayName": "moubing",
+      "active": true,
+      "timeZone": "Asia/Shanghai"
+    },
+    "updated": "2025-08-04T14:32:35.704+0800",
+    "status": {
+      "self": "http://localhost:8080/rest/api/2/status/10001",
+      "description": "",
+      "iconUrl": "http://localhost:8080/images/icons/status_generic.gif",
+      "name": "完成",
+      "id": "10001",
+      "statusCategory": {
+        "self": "http://localhost:8080/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "完成"
+      }
+    },
+    "components": [],
+    "timeoriginalestimate": null,
+    "description": null,
+    "timetracking": {},
+    "archiveddate": null,
+    "attachment": [],
+    "aggregatetimeestimate": null,
+    "summary": "前端开发",
+    "creator": {
+      "self": "http://localhost:8080/rest/api/2/user?username=2798116303",
+      "name": "2798116303",
+      "key": "JIRAUSER10000",
+      "emailAddress": "2798116303@qq.com",
+      "avatarUrls": {
+        "48x48": "http://localhost:8080/secure/useravatar?avatarId=10334",
+        "24x24": "http://localhost:8080/secure/useravatar?size=small&avatarId=10334",
+        "16x16": "http://localhost:8080/secure/useravatar?size=xsmall&avatarId=10334",
+        "32x32": "http://localhost:8080/secure/useravatar?size=medium&avatarId=10334"
+      },
+      "displayName": "2798116303@qq.com",
+      "active": true,
+      "timeZone": "Asia/Shanghai"
+    },
+    "subtasks": [],
+    "reporter": {
+      "self": "http://localhost:8080/rest/api/2/user?username=2798116303",
+      "name": "2798116303",
+      "key": "JIRAUSER10000",
+      "emailAddress": "2798116303@qq.com",
+      "avatarUrls": {
+        "48x48": "http://localhost:8080/secure/useravatar?avatarId=10334",
+        "24x24": "http://localhost:8080/secure/useravatar?size=small&avatarId=10334",
+        "16x16": "http://localhost:8080/secure/useravatar?size=xsmall&avatarId=10334",
+        "32x32": "http://localhost:8080/secure/useravatar?size=medium&avatarId=10334"
+      },
+      "displayName": "2798116303@qq.com",
+      "active": true,
+      "timeZone": "Asia/Shanghai"
+    },
+    "customfield_10000": "{summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@7d5472b[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@39afcd12[overall=PullRequestOverallBean{stateCount=0, state='OPEN', details=PullRequestOverallDetails{openCount=0, mergedCount=0, declinedCount=0}},byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@78b467dd[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@3f34e284[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=\u003Cnull\u003E,lastUpdatedTimestamp=\u003Cnull\u003E],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@27d49112[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@5e2ab499[stateCount=0,state=\u003Cnull\u003E,dueDate=\u003Cnull\u003E,overDue=false,count=0,lastUpdated=\u003Cnull\u003E,lastUpdatedTimestamp=\u003Cnull\u003E],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@5fbaa0e[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@1dc358f7[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=\u003Cnull\u003E,lastUpdatedTimestamp=\u003Cnull\u003E],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@1e1c165c[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@1519e77a[count=0,lastUpdated=\u003Cnull\u003E,lastUpdatedTimestamp=\u003Cnull\u003E],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@4dea840d[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@4a6979a7[count=0,lastUpdated=\u003Cnull\u003E,lastUpdatedTimestamp=\u003Cnull\u003E],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={\"cachedValue\":{\"errors\":[],\"configErrors\":[],\"summary\":{\"pullrequest\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"stateCount\":0,\"state\":\"OPEN\",\"details\":{\"openCount\":0,\"mergedCount\":0,\"declinedCount\":0,\"total\":0},\"open\":true},\"byInstanceType\":{}},\"build\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"failedBuildCount\":0,\"successfulBuildCount\":0,\"unknownBuildCount\":0},\"byInstanceType\":{}},\"review\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"stateCount\":0,\"state\":null,\"dueDate\":null,\"overDue\":false,\"completed\":false},\"byInstanceType\":{}},\"deployment-environment\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"topEnvironments\":[],\"showProjects\":false,\"successfulCount\":0},\"byInstanceType\":{}},\"repository\":{\"overall\":{\"count\":0,\"lastUpdated\":null},\"byInstanceType\":{}},\"branch\":{\"overall\":{\"count\":0,\"lastUpdated\":null},\"byInstanceType\":{}}}},\"isStale\":false}}",
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "environment": null,
+    "duedate": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "comment": {
+      "comments": [],
+      "maxResults": 0,
+      "total": 0,
+      "startAt": 0
+    },
+    "votes": {
+      "self": "http://localhost:8080/rest/api/2/issue/TEST-19/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    },
+    "archivedby": null
+  }
+}

@@ -13,5 +13,8 @@
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
     "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/jira-client": "^7.1.9"
   }
 }
